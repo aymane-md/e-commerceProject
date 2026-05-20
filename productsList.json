@@ -1,0 +1,37 @@
+{
+  "laptop": {
+    "price": 1000,
+    "id": 1,
+    "stock": 100
+  },
+  "desktop": {
+    "price": 1000,
+    "id": 1,
+    "stock": 100
+  },
+  "phone": {
+    "price": 1000,
+    "id": 1,
+    "stock": 100
+  },
+  "tv": {
+    "price": 1000,
+    "id": 1,
+    "stock": 100
+  },
+  "fridge": {
+    "price": 1000,
+    "id": 1,
+    "stock": 100
+  },
+  "headset": {
+    "price": 1000,
+    "id": 1,
+    "stock": 100
+  },
+  "webcam": {
+    "price": 1000,
+    "id": 1,
+    "stock": 100
+  }
+}
