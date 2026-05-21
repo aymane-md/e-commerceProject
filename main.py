@@ -212,10 +212,10 @@ def menu(admin):
     while True:
         if admin:
             options = "oerws"
-            print("o(verwrite current products list) \ne(dit products list) \nr(emove item/list) \nw(rite/confirm) \ns(how current products list) \nexit: ")
+            print("o(verwrite current products list) \ne(dit products list) \nr(emove item/list) \nw(rite/confirm) \ns(how current products list) \nexit ")
         else:
             options = "cerso" 
-            print("o(verwrite cart) \ne(dit cart) \nr(emove item from cart or remove cart) \ns(how current products list and cart)\n c(checkout, confirms order) \nexit: ")
+            print("o(verwrite cart) \ne(dit cart) \nr(emove item from cart or remove cart) \ns(how current products list and cart)\n c(checkout, confirms order) \nexit ")
         choice = input()
         if choice in options or choice == "exit":
             return choice
@@ -234,10 +234,10 @@ def main():
         if admin:
             while True:
                 choice = input("Do you want to read overwrite the file? enter yes to overwrite, enter no to append: \n")
-                if choice == "no" or 'n':
+                if choice == "no" or choice == 'n':
                     new_products = read(PRODUCTS_LIST_FILE)
                     break
-                elif choice == "yes" or 'y':
+                elif choice == "yes" or choice == 'y':
                     new_products = create()
                     break
                 else:

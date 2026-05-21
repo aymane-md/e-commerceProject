@@ -1,37 +1,37 @@
 {
-  "laptop": {
+  "1": {
     "price": 1000,
-    "id": 1,
+    "name": "Laptop",
     "stock": 100
   },
-  "desktop": {
+  "2": {
     "price": 1000,
-    "id": 1,
+    "name": "Desktop",
     "stock": 100
   },
-  "phone": {
+  "3": {
     "price": 1000,
-    "id": 1,
+    "name": "Phone",
     "stock": 100
   },
-  "tv": {
+  "4": {
     "price": 1000,
-    "id": 1,
+    "name": "TV",
     "stock": 100
   },
-  "fridge": {
+  "5": {
     "price": 1000,
-    "id": 1,
+    "name": "Fridge",
     "stock": 100
   },
-  "headset": {
+  "6": {
     "price": 1000,
-    "id": 1,
+    "name": "Headset",
     "stock": 100
   },
-  "webcam": {
+  "7": {
     "price": 1000,
-    "id": 1,
+    "name": "webcam",
     "stock": 100
   }
 }
